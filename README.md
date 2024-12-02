@@ -35,7 +35,7 @@ The project may deviate from this wireframe due to potential design improvements
 ![Logo](...)
 
 3. User feedback messages
-   -
+-
 
 ![Alerts](...)
 
