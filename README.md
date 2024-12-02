@@ -1,6 +1,6 @@
-# Website name
+# Coven Connect
 
-... is a website which aims to ...
+Coven Connect is a website which aims to ...
 
 ## UX/UI
 
