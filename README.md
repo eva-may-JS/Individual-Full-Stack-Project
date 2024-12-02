@@ -1,4 +1,4 @@
-# Thrive
+# Website name
 
 ... is a website which aims to ...
 
@@ -29,34 +29,62 @@ The project may deviate from this wireframe due to potential design improvements
 
 ![NavBar](...)
 
-3. Hero image
-- A cheerful and attention-grabbing image sits at the top of the Home page to give a positive first impression to the user and make the website look friendly and welcoming. 
-- It contains a text overlay with the website's slogan to make it clear what the page is about
+2. Logo
+-
 
-![Hero](...)
+![Logo](...)
+
+3. User feedback messages
+   -
+
+![Alerts](...)
 
 4. Introductory information section
-- A list format is used to present begginer-friendly information about mental health
-- FontAwesome icons are used to decorate the list and make it more easily digestible
+- 
 
 ![Intro](...)
 
-5. 
+5. Register
 
 
-![Quotes](...)
+![Register](...)
 
-6. Mental health tips section
+6. Log In / Log Out
 
 
-![Tips](...)
+![Log In and Log Out](...)
 
-7. Further information section
+7. Profile page
 - 
 
-![FurtherInfo](...)
+![Profile](...)
 
-8. Footer
+8. Events page
+-
+
+![Events](...)
+
+9. Register to an Event
+-
+
+![Event Registration](...)
+
+10. Attendance List
+-
+
+![Attendance List](...)
+
+11. Comments section
+-
+
+![Comments](...)
+
+12. Create an Event
+-
+
+![Create Event](...)
+
+13. Footer
 - The footer contains the social media links for the website
 - It has been made responsive using Bootstrap grid elements and fixed to the bottom of the screen on the empty pages
 
