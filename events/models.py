@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from cloudinary.models import CloudinaryField
 
 PERMITTED = ((0, "Yes"), (1, "No"))
 STATUS = ((0, "Draft"), (1, "Published"))
@@ -10,7 +11,7 @@ class Event(models.Model):
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="event_posts")
     category = models.CharField(max_length=200)
-    # event_image = CloudinaryField('image', default='placeholder')
+    event_image = CloudinaryField('image', default='placeholder')
     date = models.DateTimeField()
     location = models.CharField(max_length=200)
     description = models.TextField()
