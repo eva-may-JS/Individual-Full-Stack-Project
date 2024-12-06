@@ -4,13 +4,14 @@ from cloudinary.models import CloudinaryField
 
 PERMITTED = ((0, "Yes"), (1, "No"))
 STATUS = ((0, "Draft"), (1, "Published"))
+CATEGORY = ((0, "---"), (1, "Witchcraft for begginers"), (2, "Spells & Rituals"), (3, "Witch-Crafts"), (4, "Music & Dance"), (5, "Foods & Elixirs"), (6, "Markets & Trading"), (7, "Healing & Wellness"), (8, "Dark Arts & Shadow Work"), (9, "Tarot & Divination"), (10, "Other"))
 
 # Create your models here.
 class Event(models.Model):
     title = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="event_posts")
-    category = models.CharField(max_length=200)
+    category = models.IntegerField(choices=CATEGORY, default=0)
     event_image = CloudinaryField('image', default='placeholder')
     date = models.DateTimeField()
     location = models.CharField(max_length=200)
