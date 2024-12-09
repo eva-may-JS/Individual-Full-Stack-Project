@@ -1,17 +1,5 @@
-/* General styles */
-
 body {
     background-color: #F9FAFC;
-}
-
-.links-light {
-    color:#ECDDEE
-}
-
-/* Header and navbar */
-
-.bg-nav {
-    background-color: #463746;
 }
 
 .brand {
@@ -170,30 +158,4 @@ body {
 
 .approval {
     color: rgb(222, 146, 168);
-}
-
-/* Footer styles */
-
-.bg-footer {
-    padding: 1rem;
-    background-color: #CC9ECC;
-}
-
-.social-icons i {
-    margin-left: 2rem; /* Adds spacing between icons */
-    font-size: 1.5rem; /* Adjust icon size */
-    color: white; /* Ensures the icons match the text color */
-}
-
-.contact-footer {
-    margin-top: 1rem;
-}
-
-/* MEDIA QUERIES */
-
-/* Media query: 459px and larger */
-@media screen and (min-width: 459px) {
-    .contact-footer {
-        margin-top: auto;
-    }
 }
