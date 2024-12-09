@@ -37,6 +37,13 @@ body {
     background-color: #F9FAFC;
 }
 
+/* Welcome section */
+
+#welcome {
+    text-align: center;
+    margin-left: 2rem;
+}
+
 .card {
     border: none;
     background-color: transparent;
