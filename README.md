@@ -1,18 +1,23 @@
 # Coven Connect
 
-Coven Connect is a website which aims to ...
+Welcome to Coven Connect, a magical platform where witches, wizards, and mystical beings unite to socialize, learn, and celebrate the enchantment in everyday life.
+
+![Am I Responsive](...)
+
+Coven Connect is a social networking site tailored for magical practitioners. From spellcasters to potion makers, this platform provides a space for connecting through events, sharing wisdom, and forming lifelong friendships.
 
 ## UX/UI
 
 The goals of this project are:
 
-- 
-- 
-- 
+- An accesible website which clearly states and is oriented toward the intended audience (magical practicioners)
+- A place for users to browse events they may be interested in attending, and find out the relevant details
+- A place where users can interact and let others know they plan on attending an event in the coments section
+- (A page where users can create and showcase their own events for others to attend)
 
 To this end, 
 
-The following is a wireframe of how the page is planned to look on a mobile when scrolled down to the bottom of the page:
+The following is a wireframe of how the page is planned to look on a mobile:
 
 ![Wireframe](...)
 
@@ -85,15 +90,15 @@ The project may deviate from this wireframe due to potential design improvements
 ![Create Event](...)
 
 13. Footer
-- The footer contains the social media links for the website
-- It has been made responsive using Bootstrap grid elements and fixed to the bottom of the screen on the empty pages
+- The footer contains the social media links for the website and contact details for the website owners
+- It has been made responsive using Bootstrap grid elements and fixed to the bottom of the screen
 
 ![Footer](...)
 
 ### Features Left to Implement
 
-- Create new pages within the website which currently display as "Under Development"
-- Create clickable images in the Further Information section with the recommended websites' logos to make this section stand out more
+- 
+- 
 
 ## Testing 
 
@@ -113,7 +118,7 @@ The code was also checked using HTML and CSS validation systems.
 
 ### Unfixed Bugs
 
-Testing revealed incorrect use of "hr" element. A suitable alternative to create the desired effect is yet to be implemented.
+
 
 ## Deployment
 
@@ -122,16 +127,19 @@ Testing revealed incorrect use of "hr" element. A suitable alternative to create
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - ...
+The live link can be found here - https://coven-connect-c3728f5c8927.herokuapp.com/
 
 
 ## Credits 
 
-
-
 ### Content 
 
-- The text for the Home page was taken from:
-     -
 - The text for the Deployment section of this README.md was taken from the CI README.md template (https://github.com/Code-Institute-Solutions/readme-template)
 - The fonts were obtained from Google Fonts (https://fonts.google.com/)
+- The Favicon was developed using Favicon.io (https://favicon.io/)
+- The images were taken from ...
+
+### Design
+
+- The Wireframes were developed on Balsamiq Wireframes (https://balsamiq.com/wireframes/)
+- The ERD's were created on SmartDraw (https://www.smartdraw.com)
