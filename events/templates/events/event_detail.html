@@ -12,6 +12,8 @@
             <p class="event-subtitle"> <strong>Where?</strong> {{ event.location }}</p>
             <!-- Event date -->
             <p class="event-subtitle"> <strong>When?</strong> {{ event.date }}</p>
+            <!-- Event category -->
+            <p class="event-subtitle"> <strong>Event type:</strong> {{ event.get_category_display }}</p>
         </div>
         <div class="col-md-6 text-center mt-4">
             <img src="{% static 'images/default.jpg' %}" class="scale img-fluid" alt="placeholder">

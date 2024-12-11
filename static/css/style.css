@@ -26,6 +26,8 @@ body {
 
 .bg-nav {
     background-color: #463746;
+    padding-top: 2px;
+    padding-bottom: 0;
 }
 
 .brand {
@@ -33,6 +35,15 @@ body {
     font-size: 1.4rem;
     font-weight: 700;
     color: #fbdcfa;
+}
+
+#logo {
+    height: 70px;
+    width: 150px;
+}
+
+.nav-item {
+    margin-left: 1rem;
 }
 
 .thin {
@@ -226,10 +237,10 @@ body {
 /* Footer styles */
 
 footer {
-position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .bg-footer {
