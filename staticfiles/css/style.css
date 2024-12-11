@@ -1,7 +1,9 @@
 /* General styles */
 
 body {
-    background-color: #F9FAFC;
+    background-color: #332a33;
+    color: #fff;
+    margin-bottom: 100px;
 }
 
 .links-light {
@@ -33,8 +35,12 @@ body {
     background-color: #445261;
 }
 
-.main-bg {
-    background-color: #F9FAFC;
+/* Welcome section */
+
+#welcome {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .card {
@@ -170,6 +176,13 @@ body {
 
 /* Footer styles */
 
+footer {
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 .bg-footer {
     padding: 1rem;
     background-color: #CC9ECC;
@@ -187,7 +200,7 @@ body {
 
 /* MEDIA QUERIES */
 
-/* Media query: 459px and larger */
+/* Media query: 474px and larger */
 @media screen and (min-width: 459px) {
     .contact-footer {
         margin-top: auto;
