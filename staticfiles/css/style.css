@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
 /* General styles */
 
 body {
@@ -10,10 +12,22 @@ body {
     color:#ECDDEE
 }
 
+.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.muted-text {
+    color:#ffffffae;
+}
+
 /* Header and navbar */
 
 .bg-nav {
     background-color: #463746;
+    padding-top: 2px;
+    padding-bottom: 0;
 }
 
 .brand {
@@ -21,6 +35,15 @@ body {
     font-size: 1.4rem;
     font-weight: 700;
     color: #fbdcfa;
+}
+
+#logo {
+    height: 70px;
+    width: 150px;
+}
+
+.nav-item {
+    margin-left: 1rem;
 }
 
 .thin {
@@ -43,9 +66,32 @@ body {
     margin-bottom: 2rem;
 }
 
+/* Events section */
+
 .card {
     border: none;
     background-color: transparent;
+}
+
+.event-card {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F2C57C;
+    min-width: 100%;
+    background-color: rgb(242, 197, 124, 0.05);
+}
+
+.card-body {
+    padding-top: 0;
+}
+
+.blue {
+    color:#188181;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
 .image-container {
@@ -58,6 +104,10 @@ body {
     min-width: 30%;
     left: -2px;
     background-color: #188181;
+}
+
+.event-image {
+    margin-bottom: 25px;
 }
 
 .scale {
@@ -105,24 +155,34 @@ body {
     z-index: 100;
 }
 
-.post-link {
+.event-title {
     text-decoration: none;
-    color: #445261;
-}
-
-.post-link:hover,
-.page-link {
-    color: #E84610;
-}
-
-.post-title {
+    color: #CC9ECC;
+    font-family: Borel, sans-serif;
     margin-top: 10%;
     margin-left: 5%;
 }
 
-.post-subtitle {
+.event-title:hover {
+    color: #69A2B0;
+}
+
+.page-link {
+    background-color: #F2C57C;
+    border: #F2C57C;
+    color:#332a33;
+    font-weight: 500;
+}
+
+.page-link:hover {
+    background-color: #188181;
+    color: #332a33;
+}
+
+.event-subtitle {
     margin-left: 5%;
     color: lightgray;
+    text-align: left;
 }
 
 .btn-signup,
@@ -177,10 +237,10 @@ body {
 /* Footer styles */
 
 footer {
-position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .bg-footer {
