@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
 /* General styles */
 
 body {
@@ -54,6 +56,18 @@ body {
 .card {
     border: none;
     background-color: transparent;
+}
+
+.event-card {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F2C57C;
+    min-width: 100%;
+    background-color: rgb(242, 197, 124, 0.05);
+}
+
+.blue {
+    color:#188181;
 }
 
 .img-fluid {
@@ -118,22 +132,34 @@ body {
     z-index: 100;
 }
 
-.post-link {
+.event-title {
     text-decoration: none;
-    color: #445261;
+    color: #CC9ECC;
+    font-family: Borel, sans-serif;
 }
 
-.post-link:hover,
+.event-title:hover {
+    color: #69A2B0;
+}
+
 .page-link {
-    color: #E84610;
+    background-color: #F2C57C;
+    border: #F2C57C;
+    color:#332a33;
+    font-weight: 500;
 }
 
-.post-title {
+.page-link:hover {
+    background-color: #188181;
+    color: #332a33;
+}
+
+.event-title {
     margin-top: 10%;
     margin-left: 5%;
 }
 
-.post-subtitle {
+.event-subtitle {
     margin-left: 5%;
     color: lightgray;
 }
