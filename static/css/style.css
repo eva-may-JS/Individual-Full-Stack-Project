@@ -18,6 +18,10 @@ body {
     justify-content: center;
 }
 
+.muted-text {
+    color:#ffffffae;
+}
+
 /* Header and navbar */
 
 .bg-nav {
@@ -66,6 +70,10 @@ body {
     background-color: rgb(242, 197, 124, 0.05);
 }
 
+.card-body {
+    padding-top: 0;
+}
+
 .blue {
     color:#188181;
 }
@@ -85,6 +93,10 @@ body {
     min-width: 30%;
     left: -2px;
     background-color: #188181;
+}
+
+.event-image {
+    margin-bottom: 25px;
 }
 
 .scale {
@@ -136,6 +148,8 @@ body {
     text-decoration: none;
     color: #CC9ECC;
     font-family: Borel, sans-serif;
+    margin-top: 10%;
+    margin-left: 5%;
 }
 
 .event-title:hover {
@@ -154,14 +168,10 @@ body {
     color: #332a33;
 }
 
-.event-title {
-    margin-top: 10%;
-    margin-left: 5%;
-}
-
 .event-subtitle {
     margin-left: 5%;
     color: lightgray;
+    text-align: left;
 }
 
 .btn-signup,

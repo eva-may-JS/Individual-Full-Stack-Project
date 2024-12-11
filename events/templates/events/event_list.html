@@ -16,9 +16,10 @@
                         <div class="card-body">
                             <div class="image-container"></div>
                             <a href="{% url 'event_detail' event.slug %}" class="event-title">
+                                <img src="{% static 'images/default.jpg' %}" class="event-image d-flex justify-content-center card-img-top" alt="placeholder">
                                 <h2 class="card-title">{{ event.title }}</h2>
                             </a>
-                            <hr />
+                            
                             <p class="card-text">{{ event.excerpt }}</p>
                             <p class="card-text h6 blue text-center">{{ event.date}}
                             </p>
