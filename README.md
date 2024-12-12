@@ -28,9 +28,9 @@ The project may deviate from this wireframe due to potential design improvements
 ### Existing Features
 
 1. Navigation bar
-- The NavBar is fully responsive and contains the website logo and the navigation elements "Home", "About Us" and "FAQ"
-- The navbar collapses into the burger icon for small devices and expands along the top of the page in larger devices thanks to a media query
-- A line under the relevant section indicates to the user what part of the webpage they are on
+- The NavBar is fully responsive and contains the website logo and the navigation elements "Home" and "Events". Logged out users also see: "Register" and "Login" and logged in users see "Logout"
+- The navbar is made with Bootstrap and collapses into the burger icon for small devices and expands along the top of the page in larger devices.
+- Bold text indicates to the user what part of the webpage they are on
 
 ![NavBar](...)
 
@@ -59,37 +59,23 @@ The project may deviate from this wireframe due to potential design improvements
 
 ![Log In and Log Out](...)
 
-7. Profile page
-- 
-
-![Profile](...)
-
-8. Events page
+7. Events page
 -
 
 ![Events](...)
 
-9. Register to an Event
--
 
-![Event Registration](...)
-
-10. Attendance List
--
-
-![Attendance List](...)
-
-11. Comments section
+8. Comments section
 -
 
 ![Comments](...)
 
-12. Create an Event
+9. Create an Event
 -
 
 ![Create Event](...)
 
-13. Footer
+10. Footer
 - The footer contains the social media links for the website and contact details for the website owners
 - It has been made responsive using Bootstrap grid elements and fixed to the bottom of the screen
 
@@ -97,8 +83,20 @@ The project may deviate from this wireframe due to potential design improvements
 
 ### Features Left to Implement
 
+1. Register to an Event
+-
+
+![Event Registration](...)
+
+2. Attendance List
+-
+
+![Attendance List](...)
+
+3. Profile page
 - 
-- 
+
+![Profile](...)
 
 ## Testing 
 
@@ -109,13 +107,13 @@ The code was also checked using HTML and CSS validation systems.
 ### Validator Testing 
 
 - HTML
-  - Three errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-    - Missing alt attribute on logo image (Fixed)
-    - White space in an ID value field (Fixed)
-    - Use of "hr" inside lists (Unfixed)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
+- CSS
+
+- JS
+
+- Python
+  
 ### Unfixed Bugs
 
 
@@ -137,7 +135,8 @@ The live link can be found here - https://coven-connect-c3728f5c8927.herokuapp.c
 - The text for the Deployment section of this README.md was taken from the CI README.md template (https://github.com/Code-Institute-Solutions/readme-template)
 - The fonts were obtained from Google Fonts (https://fonts.google.com/)
 - The Favicon was developed using Favicon.io (https://favicon.io/)
-- The images were taken from ...
+- The images are royalty-free and were taken from Pixabay (https://pixabay.com/)
+- The logo was created using logo.com (https://logo.com/)
 
 ### Design
 
