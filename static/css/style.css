@@ -23,6 +23,10 @@ body {
     color:#ffffffae;
 }
 
+.yellow {
+    color: #F2C57C;
+}
+
 /* Header and navbar */
 
 .bg-nav {
@@ -121,6 +125,14 @@ body {
     margin: 4px;
     text-transform: uppercase;
 }
+
+.hr-light {
+    border: none;
+    height: 2px;
+    background-color: #F2C57C;
+    margin: 1rem 0;
+}
+
 
 .masthead {
     margin-top: 10px;
