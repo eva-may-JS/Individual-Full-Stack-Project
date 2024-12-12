@@ -26,9 +26,15 @@ def event_detail(request, slug):
 
     queryset = Event.objects.filter(status=1)
     event = get_object_or_404(queryset, slug=slug)
+    comments = event.comments.all().order_by("-created_on")
+    comment_count = event.comments.filter(approved=True).count()
 
     return render(
         request,
         "events/event_detail.html",
-        {"event": event},
+        {
+            "event": event,
+            "comments": comments,
+            "comment_count": comment_count,
+        },
     )
