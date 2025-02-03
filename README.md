@@ -120,10 +120,21 @@ The code was also checked using HTML and CSS validation systems.
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- The site was coded in GitHub and deployed to Heroku. The steps to deploy on Heroku are as follows:
+  1. IDE: Ensure your code is updated and ready for deployment
+  2. Heroku: Create New App 
+  - In your Heroku dashboard, create a new app using the "New" button followed by the "Create new app" button.
+  - Give your app a meaningful name
+  - Select your location (Europe was selected for this project)
+  - Select "Create app"
+  3. Heroku: Deployment
+  - Navigate to the "Deploy" tab
+  - Select your GitHub repository and connect it to Heroku
+  - Select the main branch and choose automatic deployment if desired
+  - Navigate to the "Settings" tab and enter the required environment variables
+  - Navigate to the "Resources" tab and ensure you are using the correct Dyno type and Add-ons if any are needed.
+  - Return to the "Deploy" tab and select "Deploy Branch"
+  - Once the deployment process is complete, the "View" button will appear, which takes you to the live website
 
 The live link can be found here - https://coven-connect-c3728f5c8927.herokuapp.com/
 
@@ -132,10 +143,9 @@ The live link can be found here - https://coven-connect-c3728f5c8927.herokuapp.c
 
 ### Content 
 
-- The text for the Deployment section of this README.md was taken from the CI README.md template (https://github.com/Code-Institute-Solutions/readme-template)
 - The fonts were obtained from Google Fonts (https://fonts.google.com/)
 - The Favicon was developed using Favicon.io (https://favicon.io/)
-- The images are royalty-free and were taken from Pixabay (https://pixabay.com/)
+- The images are royalty-free and were taken from Pixabay (https://pixabay.com/) and Pexels (https://www.pexels.com/)
 - The logo was created using logo.com (https://logo.com/)
 
 ### Design
