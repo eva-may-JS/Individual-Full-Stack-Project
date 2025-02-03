@@ -16,8 +16,7 @@
                         <div class="card-body">
                             <div class="image-container">
                                 <a href="{% url 'event_detail' event.slug %}" class="event-title">
-                                    <!-- <img src="{% static 'images/default.jpg' %}" -->
-                                    <!-- class="event-image d-flex justify-content-center card-img-top" alt="placeholder"> -->
+                                    
                                     {% if "placeholder" in event.event_image.url %}
                                     <img class="event-image d-flex justify-content-center card-img-top" src="{% static 'images/default.jpg' %}"
                                         alt="placeholder image">
