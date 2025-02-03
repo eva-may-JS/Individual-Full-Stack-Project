@@ -247,6 +247,25 @@ body {
     color: rgb(222, 146, 168);
 }
 
+/* Modal styles */
+
+.modal-content {
+    background-color:#e0aa53;
+    color:#463746;
+}
+
+.modal-backdrop {
+    background-color: rgba(204, 158, 204, 0.7);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
 /* Footer styles */
 
 footer {
