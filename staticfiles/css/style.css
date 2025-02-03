@@ -18,8 +18,13 @@ body {
     justify-content: center;
 }
 
+
 .muted-text {
     color:#ffffffae;
+}
+
+.yellow {
+    color: #F2C57C;
 }
 
 /* Header and navbar */
@@ -121,6 +126,14 @@ body {
     text-transform: uppercase;
 }
 
+.hr-light {
+    border: none;
+    height: 2px;
+    background-color: #F2C57C;
+    margin: 1rem 0;
+}
+
+
 .masthead {
     margin-top: 10px;
     overflow: hidden;
@@ -204,7 +217,7 @@ body {
 
 .link:hover,
 .link:active {
-    color: #445261;
+    color: #F2C57C;
     text-decoration: underline;
 }
 
@@ -232,6 +245,25 @@ body {
 
 .approval {
     color: rgb(222, 146, 168);
+}
+
+/* Modal styles */
+
+.modal-content {
+    background-color:#e0aa53;
+    color:#463746;
+}
+
+.modal-backdrop {
+    background-color: rgba(204, 158, 204, 0.7);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
 }
 
 /* Footer styles */
