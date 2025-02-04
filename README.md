@@ -102,11 +102,12 @@ The project may deviate from this wireframe due to potential design improvements
 
 This project was tested using DevTools on the deployed product. All links and buttons have been checked and are clickable and functional and the layout has been inspected and found satisfactory on all screen sizes using the "Responsive" Dimentions option and dragging the viewport to all possible and reasonable shapes and sizes.
 
-The code was also checked using HTML and CSS validation systems.
+The code was also checked using HTML, CSS, JS and Python validation systems.
 
 ### Validator Testing 
 
 - HTML
+
 
 - CSS
 
