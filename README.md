@@ -139,6 +139,12 @@ No errors were found:
 - JS
 
 - Python
+
+Checked using the CI Python Linter
+
+Minor errors to do with indentation and spacing were found and resolved:
+
+![Python validation pass](...)
   
 ### Unfixed Bugs
 
