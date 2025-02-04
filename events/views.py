@@ -7,6 +7,7 @@ from .forms import CommentForm
 
 # Create your views here.
 
+
 class EventList(generic.ListView):
     queryset = Event.objects.filter(status=1).order_by('date')
     template_name = "event_list.html"
@@ -42,7 +43,7 @@ def event_detail(request, slug):
             messages.add_message(
                 request, messages.SUCCESS,
                 'Comment submitted and awaiting approval'
-    )
+            )
 
     comment_form = CommentForm()
 
@@ -76,7 +77,8 @@ def comment_edit(request, slug, comment_id):
             comment.save()
             messages.add_message(request, messages.SUCCESS, 'Comment Updated!')
         else:
-            messages.add_message(request, messages.ERROR, 'Error updating comment!')
+            messages.add_message(request, messages.ERROR,
+                                 'Error updating comment!')
 
     return HttpResponseRedirect(reverse('event_detail', args=[slug]))
 
@@ -93,6 +95,8 @@ def comment_delete(request, slug, comment_id):
         comment.delete()
         messages.add_message(request, messages.SUCCESS, 'Comment deleted!')
     else:
-        messages.add_message(request, messages.ERROR, 'You can only delete your own comments!')
+        messages.add_message(request, messages.ERROR,
+                             'You can only delete your own comments!')
 
     return HttpResponseRedirect(reverse('event_detail', args=[slug]))
+    
