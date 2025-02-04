@@ -107,7 +107,17 @@ The code was also checked using HTML, CSS, JS and Python validation systems.
 ### Validator Testing 
 
 - HTML
-An error caused by an extra </p> tag was flagged on the event_detail template.
+An error caused by an extra </p> tag was flagged on the event_detail template. On further inspection this turned out to be due to Summernote adding paragraph tags around event descriptions, as seen below:
+
+![Event detail template error](...)
+
+This was fixed by changing the surrounding paragraph tags for div tags:
+
+![Event detail template error fixed](...)
+
+After this, all templates were passing HTML validation:
+
+![HTML validation pass](...)
 
 - CSS
 
