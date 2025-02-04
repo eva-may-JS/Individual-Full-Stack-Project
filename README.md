@@ -138,6 +138,12 @@ No errors were found:
 
 - JS
 
+Checked using JSHint
+
+No errors found:
+
+![JS validation pass](...)
+
 - Python
 
 Checked using the CI Python Linter
