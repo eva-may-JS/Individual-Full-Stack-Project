@@ -115,6 +115,12 @@ This was fixed by changing the surrounding paragraph tags for div tags:
 
 ![Event detail template error fixed](...)
 
+A second error was found in the event detail template due to the custom attributes on the edit and delete buttons were missing the prefacing "data-":
+
+![Custom attribute error](...)
+
+This was then added.
+
 After this, all templates were passing HTML validation:
 
 ![HTML validation pass](...)

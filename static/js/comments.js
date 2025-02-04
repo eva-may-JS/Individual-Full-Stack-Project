@@ -40,7 +40,8 @@ for (let button of editButtons) {
 for (let button of deleteButtons) {
   button.addEventListener("click", (e) => {
     let commentId = e.target.getAttribute("data-comment_id");
-    deleteConfirm.href = `delete_comment/${commentId}`;
+    let eventSlug = window.location.pathname.split("/")[2];  // Extract event slug from URL
+    deleteConfirm.href = `/events/${eventSlug}/delete_comment/${commentId}`;  // Correct URL format
     deleteModal.show();
   });
 }
