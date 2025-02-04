@@ -107,7 +107,7 @@ The code was also checked using HTML, CSS, JS and Python validation systems.
 ### Validator Testing 
 
 - HTML
-
+An error caused by an extra </p> tag was flagged on the event_detail template.
 
 - CSS
 

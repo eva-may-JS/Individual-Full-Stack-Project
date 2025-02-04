@@ -17,7 +17,7 @@
             <p class="event-subtitle"> <strong>Event type:</strong> {{ event.get_category_display }}</p>
         </div>
         <div class="col-md-6 text-center mt-4">
-            
+
             {% if "placeholder" in event.event_image.url %}
             <img src="{% static 'images/default.jpg' %}" class="scale" alt="placeholder image">
             {% else %}
@@ -35,9 +35,9 @@
                 <p class="card-text">
                     {{ event.description | safe }}
                 </p>
-                <p class="card-text muted-text">
-                    <!-- get_FOO_display method used to display associated string representation of integer model field -->
-                    <strong>Suitable for familiars?</strong> {{ event.get_familiar_display }} </p>
+                <!-- get_FOO_display method used to display associated string representation of integer model field -->
+                <p class="card-text muted-text"><strong>Suitable for familiars?</strong>
+                    {{ event.get_familiar_display }} </p>
             </div>
         </div>
     </div>
