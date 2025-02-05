@@ -5,8 +5,6 @@ from django.http import HttpResponseRedirect
 from .models import Event, Comment
 from .forms import CommentForm
 
-# Create your views here.
-
 
 class EventList(generic.ListView):
     """

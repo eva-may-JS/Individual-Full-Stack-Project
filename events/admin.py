@@ -17,6 +17,4 @@ class EventAdmin(SummernoteModelAdmin):
     summernote_fields = ('description',)
 
 
-# Register your models here.
-
 admin.site.register(Comment)

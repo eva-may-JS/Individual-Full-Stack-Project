@@ -11,9 +11,6 @@ CATEGORY = ((0, "---"), (1, "Witchcraft for begginers"),
             (9, "Tarot & Divination"), (10, "Other"))
 
 
-# Create your models here.
-
-
 class Event(models.Model):
     """
     Stores a single event entry related to :model:`auth.User`.
