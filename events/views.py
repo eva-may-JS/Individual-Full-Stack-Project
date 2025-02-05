@@ -29,7 +29,7 @@ class EventList(generic.ListView):
 
 def event_detail(request, slug):
     """
-    Display an individual :model:`events.Event`.
+    Display an individual instance of :model:`events.Event`.
 
     **Context**
 

@@ -169,6 +169,26 @@ The performance, accessibility, use of best practices and SEO for this project w
 
 ### Django testing
 
+TestCase was used to test our comment form as well as GET and POST requests on our event_detail view. This ammounted to four tests:
+- To check for valid comment form submissions
+  - The requirement being that the comment form not be blank
+- To check for invalid comment form submissions
+  - The requirement being that the comment form be blank, and, therefore, invalid
+- To check an individual event page with a comment form is returned 
+  - The requirements being that: 
+    - The page loads
+    - All required fields be completed in the correct format
+    - All expected event fields are present on the returned page
+    - The comment form be present on the returned page
+- To check for successful posting of comments on an event
+  - The requirements being that:
+    - Comment forms are not submitted blank
+    - The comments are posted to the database and returned on the page, with a confirmation message for the comment author
+
+When correct data was entered into the tests, all four of them passed. The tests failed appropriately when the data entered did not match the expected outcome.
+
+![Django test results](...)
+
 ## Deployment
 
 - The site was coded in GitHub and deployed to Heroku. The steps to deploy on Heroku are as follows:
