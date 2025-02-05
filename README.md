@@ -70,12 +70,7 @@ The project may deviate from this wireframe due to potential design improvements
 
 ![Comments](...)
 
-9. Create an Event
--
-
-![Create Event](...)
-
-10. Footer
+9. Footer
 - The footer contains the social media links for the website and contact details for the website owners
 - It has been made responsive using Bootstrap grid elements and fixed to the bottom of the screen
 
@@ -88,23 +83,37 @@ The project may deviate from this wireframe due to potential design improvements
 
 ![Event Registration](...)
 
-2. Attendance List
+2. Create an Event
+-
+
+![Create Event](...)
+
+
+3. Attendance List
 -
 
 ![Attendance List](...)
 
-3. Profile page
+4. Profile page
 - 
 
 ![Profile](...)
 
 ## Testing 
 
+### DevTools testing
+
 This project was tested using DevTools on the deployed product. All links and buttons have been checked and are clickable and functional and the layout has been inspected and found satisfactory on all screen sizes using the "Responsive" Dimentions option and dragging the viewport to all possible and reasonable shapes and sizes.
 
-The code was also checked using HTML, CSS, JS and Python validation systems.
+### Responsiveness
+
+The responsiveness of this project was further tested using the UI Am I Responsive? design checker.
+
+![Am I Responsive video](...)
 
 ### Validator Testing 
+
+The code was also checked using HTML, CSS, JS and Python validation systems.
 
 1. HTML
 
@@ -152,9 +161,13 @@ Minor errors to do with indentation and spacing were found and resolved:
 
 ![Python validation pass](...)
   
-### Unfixed Bugs
+### Performance and accessibility
 
+The performance, accessibility, use of best practices and SEO for this project were tested using Lighthouse in Chrome for Developers, and had positive results:
 
+![Lighthouse report](...)
+
+### Django testing
 
 ## Deployment
 
