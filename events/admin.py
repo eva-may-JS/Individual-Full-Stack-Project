@@ -5,6 +5,10 @@ from .models import Event, Comment
 
 @admin.register(Event)
 class EventAdmin(SummernoteModelAdmin):
+    """
+    In admin site, lists fields for display of events, fields for search,
+    field filters, fields to prepopulate and rich-text editor.
+    """
 
     list_display = ('title', 'slug', 'status', 'created_on')
     search_fields = ['title', 'description']

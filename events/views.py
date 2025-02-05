@@ -9,6 +9,21 @@ from .forms import CommentForm
 
 
 class EventList(generic.ListView):
+    """
+    Returns all published events in :model:`events.Event`
+    and displays them in a page of six events. 
+    **Context**
+
+    ``queryset``
+        All published instances of :model:`events.Event` in order from
+        soonest to latest date.
+    ``paginate_by``
+        Number of events per page.
+        
+    **Template:**
+
+    :template:`events/event_list.html`
+    """
     queryset = Event.objects.filter(status=1).order_by('date')
     template_name = "event_list.html"
     paginate_by = 6
@@ -22,6 +37,12 @@ def event_detail(request, slug):
 
     ``event``
         An instance of :model:`events.Event`.
+    ``comments``
+        All approved comments related to the event.
+    ``comment_count``
+        A count of approved comments related to the event.
+    ``comment_form``
+        An instance of :form:`events.CommentForm`.
 
     **Template:**
 
@@ -61,7 +82,16 @@ def event_detail(request, slug):
 
 def comment_edit(request, slug, comment_id):
     """
-    view to edit comments
+    Display an individual comment for editing.
+
+    **Context**
+
+    ``event``
+        An instance of :model:`events.Event`.
+    ``comment``
+        A single comment related to the event.
+    ``comment_form``
+        An instance of :form:`events.CommentForm`
     """
     if request.method == "POST":
 
@@ -85,7 +115,14 @@ def comment_edit(request, slug, comment_id):
 
 def comment_delete(request, slug, comment_id):
     """
-    view to delete comment
+    Delete an individual comment.
+
+    **Context**
+
+    ``event``
+        An instance of :model:`events.Event`.
+    ``comment``
+        A single comment related to the event.
     """
     queryset = Event.objects.filter(status=1)
     event = get_object_or_404(queryset, slug=slug)

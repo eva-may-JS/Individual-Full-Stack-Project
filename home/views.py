@@ -1,7 +1,12 @@
 from django.shortcuts import render
 
-# Create your views here.
-
 
 def HomePage(request):
+    """
+    Renders the home page
+
+    **Template:**
+
+    :template:`home/index.html`
+    """
     return render(request, 'home/index.html')

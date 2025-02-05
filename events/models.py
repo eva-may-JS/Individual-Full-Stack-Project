@@ -15,6 +15,9 @@ CATEGORY = ((0, "---"), (1, "Witchcraft for begginers"),
 
 
 class Event(models.Model):
+    """
+    Stores a single event entry related to :model:`auth.User`.
+    """
     title = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE,
@@ -38,6 +41,10 @@ class Event(models.Model):
 
 
 class Comment(models.Model):
+    """
+    Stores a single comment entry related to :model:`auth.User`
+    and :model:`events.Event`.
+    """
     event = models.ForeignKey(Event, on_delete=models.CASCADE,
                               related_name="comments")
     author = models.ForeignKey(User, on_delete=models.CASCADE,
