@@ -19,7 +19,11 @@ To this end,
 
 The following is a wireframe of how the page is planned to look on a mobile:
 
-![Wireframe](...)
+![Wireframe mobile](...)
+
+This is a wireframe of how the page is planned to look on a laptop/desktop:
+
+![Wireframe laptop](...)
 
 The project may deviate from this wireframe due to potential design improvements during the process
 
@@ -98,6 +102,8 @@ The project may deviate from this wireframe due to potential design improvements
 - 
 
 ![Profile](...)
+
+## Models and ERD's
 
 ## Testing 
 
