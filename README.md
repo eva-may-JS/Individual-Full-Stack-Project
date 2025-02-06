@@ -32,55 +32,66 @@ The project may deviate from this wireframe due to potential design improvements
 ### Existing Features
 
 1. Navigation bar
-- The NavBar is fully responsive and contains the website logo and the navigation elements "Home" and "Events". Logged out users also see: "Register" and "Login" and logged in users see "Logout"
-- The navbar is made with Bootstrap and collapses into the burger icon for small devices and expands along the top of the page in larger devices.
+- The NavBar is fully responsive and contains the website logo and the navigation elements "Home" and "Events". It also changes dynamically based on user authentication status (e.g., showing login/register for guests and logout for authenticated users).
+- It is made with Bootstrap and collapses into the burger icon for small devices and expands along the top of the page in larger devices.
 - Bold text indicates to the user what part of the webpage they are on
 
 ![NavBar](...)
 
 2. Logo
--
+- A distinctive site logo is positioned in the navigation bar to reinforce branding.
+- Clicking the logo redirects users to the homepage for easy and intuitive navigation.
 
 ![Logo](...)
 
 3. User feedback messages
--
+- Flash messages provide real-time feedback for user actions (e.g., successful login, form submission errors, or comment submitted for approval).
+- Messages appear at the top of the screen and have a Close button to ensure a smooth user experience.
 
 ![Alerts](...)
 
 4. Introductory information section
-- 
+- The homepage includes an introduction to the site’s purpose, guiding new users on how to engage with the community.
 
 ![Intro](...)
 
 5. Register
+- Secure authentication system allowing users to register
+- Built-in Django authentication ensures data security and session management.
 
 
 ![Register](...)
 
 6. Log In / Log Out
-
+- Secure authentication system allowing users to log in and log out.
+- Users must be logged in to interact with the site (e.g., posting comments).
+- Built-in Django authentication ensures data security and session management.
 
 ![Log In and Log Out](...)
 
 7. Events page
--
+- Displays a list of upcoming events with key details such as title, date, location, and category.
+- Each event has a dedicated detail page showing a full description and an associated discussion section.
 
 ![Events](...)
 
 
 8. Comments section
--
+- Authenticated users can post comments under event detail pages.
+- Comments can be edited or deleted by their authors.
+- New or newly edited comments require admin approval before being visible to ensure content moderation.
 
 ![Comments](...)
 
 9. Footer
-- The footer contains the social media links for the website and contact details for the website owners
-- It has been made responsive using Bootstrap grid elements and fixed to the bottom of the screen
+- A fixed footer is displayed across all pages, containing links to social media and contact details for website admin.
+- It has been made responsive using Bootstrap grid elements.
 
 ![Footer](...)
 
 ### Features Left to Implement
+
+There are several features planned for a future iteration which have not yet been implemented:
 
 1. Register to an Event
 -
