@@ -22,7 +22,7 @@ The following is a wireframe of how the page is planned to look on a mobile:
 
 ![Wireframe mobile](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Mobile%20wireframe%20V.3.png)
 
-This is a wireframe of how the page is planned to look on a laptop/desktop:
+These are wireframes of how the page is planned to look on a laptop/desktop:
 
 ![Laptop home page](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Laptop%20home%20page.png) 
 ![Laptop events page](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Laptop%20events%20page.png)
