@@ -13,9 +13,10 @@ The goals of this project are:
 - An accesible website which clearly states and is oriented toward the intended audience (magical practicioners)
 - A place for users to browse events they may be interested in attending, and find out the relevant details
 - A place where users can interact and let others know they plan on attending an event in the coments section
-- (A page where users can create and showcase their own events for others to attend)
 
-To this end, 
+The user stories, wireframes, colour scheme and overall design of this webpage have been tailored to these goals.
+
+### Wireframes
 
 The following is a wireframe of how the page is planned to look on a mobile:
 
@@ -27,7 +28,35 @@ This is a wireframe of how the page is planned to look on a laptop/desktop:
 
 The project may deviate from this wireframe due to potential design improvements during the process
 
+### User stories
+
+All user stories were met and have been closed in the Kanban board for this project (link to the project board: https://github.com/users/eva-may-JS/projects/4)
+
+Site user stories:
+  - As a user, I want a clear and accessible navigation bar so that I can easily browse through different sections of the site.
+  - As a user, I want to see a recognizable logo in the navbar so that I know I am on the official Coven Connect page.
+  - As a user, I want to learn about the purpose and mission of Coven Connect so that I can decide if it is the right fit for me
+  - As a visitor, I want to register for an account so that I can participate in events and access members-only features.
+  - As a user, I want to log in to my account so that I can have full use of the website features
+  - As a user, I want to log out securely and be redirected to the home page.
+  - As a user, I want an events page where I can browse all upcoming events with details like date, time, and location so I can decide if I want to go
+  - As a user I can see the event detail page when clicking on an event from the Events page list so that I can view all relevant information about the event (e.g. attire, familiar required)
+  - As a user, I want a comments section on each event page where I can discuss the event details with other attendees
+  - As a user, I want to edit or delete my comments to ensure my contributions are accurate and relevant.
+  - As a user, I want to receive feedback messages (e.g., success, error, or warning) so that I know if my actions (like logging in, registering, or commenting) were successful or not.
+  - As a user, I want a footer with important links and information (e.g., contact and social media) so that I can find additional resources easily.
+
+Product owner and site admin user stories:
+  - As a Product Owner, I want to showcase the philosophy and purpose of Coven Connect so that I can attract the people most likely to return
+  - As a Product Owner, I want an events page for users to browse so that people attend my events
+  - As a Site Admin I can create, read, update and delete events so that I can manage my content
+  - As a Site Admin I can create draft posts so that I can finish writing the content later
+  - As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
+  
+  
 ## Features 
+
+The user stories used to plan and structure this project reflect the need for the existing features of the website, listed below.
 
 ### Existing Features
 
@@ -125,6 +154,29 @@ There are several features planned for a future iteration which have not yet bee
 
 ## Models and ERD's
 
+The following is an image of the ERD for this project, showcasing the models used and their relationships:
+
+![ERD](...)
+
+## Technical information
+
+### Languages
+- HTML
+- CSS
+- JavaScript
+- Python
+
+### Tools and technologies
+- Django
+- Bootstrap
+- Crispy Forms
+- Summernote
+- Cloudinary
+- AllAuth
+- Whitenoise
+- PostgreSQL
+- Gunicorn
+
 ## Testing 
 
 ### DevTools testing
@@ -149,7 +201,7 @@ An error caused by an extra paragraph tag was flagged on the event_detail templa
 
 ![Event detail template error](...)
 
-This was fixed by changing the surrounding paragraph tags for div tags:
+This was fixed by changing the surrounding paragraph tags for article tags:
 
 ![Event detail template error fixed](...)
 
@@ -183,7 +235,7 @@ No errors found:
 
 Checked using the CI Python Linter
 
-Minor errors to do with indentation and spacing were found and resolved:
+Minor errors to do with visual indent and spacing were found and resolved:
 
 ![Python validation pass](...)
   
