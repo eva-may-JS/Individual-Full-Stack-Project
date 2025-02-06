@@ -156,7 +156,7 @@ There are several features planned for a future iteration which have not yet bee
 
 The following is an image of the ERD for this project, showcasing the models used and their relationships:
 
-![ERD](...)
+![ERD](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Basic%20ERD.png)
 
 ## Technical information
 
