@@ -2,7 +2,7 @@
 
 Welcome to Coven Connect, a magical platform where witches, wizards, and mystical beings unite to socialize, learn, and celebrate the enchantment in everyday life.
 
-![Am I Responsive](...)
+![Am I Responsive](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/AmIResponsive.png)
 
 Coven Connect is a social networking site tailored for magical practitioners. From spellcasters to potion makers, this platform provides a space for connecting through events, sharing wisdom, and forming lifelong friendships.
 
@@ -20,7 +20,7 @@ The user stories, wireframes, colour scheme and overall design of this webpage h
 
 The following is a wireframe of how the page is planned to look on a mobile:
 
-![Wireframe mobile](...)
+![Wireframe mobile](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Mobile%20wireframe%20V.3.png)
 
 This is a wireframe of how the page is planned to look on a laptop/desktop:
 
@@ -129,28 +129,20 @@ There are several features planned for a future iteration which have not yet bee
 - Users will receive a confirmation message upon successful registration.
 - Users will also be able to de-register from events
 
-![Event Registration](...)
-
 2. Create an Event
 - Authenticated users will be able to create and post their own events.
 - A "Create Event" form will allow users to input event details, such as title, date, location, and description.
 - Events will undergo an approval process before being displayed on the events page.
 - Users will have the ability to edit or delete their own events.
 
-![Create Event](...)
-
-
 3. Attendance List
 - Each event page will display a list of registered attendees, visible to all authenticated users.
 - The attendance list will include clickable usernames which link to the attending users profile.
-
-![Attendance List](...)
 
 4. Profile page
 - A dedicated profile page where users can update personal information.
 - Users can add optional details such as a short bio, interests, types of magical ability, and profile picture.
 
-![Profile](...)
 
 ## Models and ERD's
 
@@ -187,7 +179,7 @@ This project was tested using DevTools on the deployed product. All links and bu
 
 The responsiveness of this project was further tested using the UI Am I Responsive? design checker.
 
-![Am I Responsive video](...)
+![Am I Responsive video](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/AmIResponsivevideo-ezgif.com-video-to-gif-converter.gif)
 
 ### Validator Testing 
 
@@ -199,21 +191,19 @@ Checked using the W3C HTML Validator
 
 An error caused by an extra paragraph tag was flagged on the event_detail template. On further inspection this turned out to be due to Summernote adding paragraph tags around event descriptions, as seen below:
 
-![Event detail template error](...)
+![Event detail template error](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/HTML%20event%20detail%20page%20error.png)
 
-This was fixed by changing the surrounding paragraph tags for article tags:
-
-![Event detail template error fixed](...)
+This was fixed by changing the surrounding paragraph tags for article tags.
 
 A second error was found in the event detail template due to the custom attributes on the edit and delete buttons were missing the prefacing "data-":
 
-![Custom attribute error](...)
+![Custom attribute error](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/custom%20attribute%20error.png)
 
 This was then added.
 
 After this, all templates were passing HTML validation:
 
-![HTML validation pass](...)
+![HTML validation pass](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/HTML%20validation%20pass.png)
 
 2. CSS
 
@@ -221,7 +211,7 @@ Checked using the W3C CSS Validator
 
 No errors were found:
 
-![CSS validation pass](...)
+![CSS validation pass](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/CSS%20validation%20pass.png)
 
 - JS
 
@@ -229,7 +219,7 @@ Checked using JSHint
 
 No errors found:
 
-![JS validation pass](...)
+![JS validation pass](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/JS%20validator%20pass.png)
 
 - Python
 
@@ -237,13 +227,13 @@ Checked using the CI Python Linter
 
 Minor errors to do with visual indent and spacing were found and resolved:
 
-![Python validation pass](...)
+![Python validation pass](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Python%20validation%20pass.png)
   
 ### Performance and accessibility
 
 The performance, accessibility, use of best practices and SEO for this project were tested using Lighthouse in Chrome for Developers, and had positive results:
 
-![Lighthouse report](...)
+![Lighthouse report](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Accessibility%20report%20lighthouse.png)
 
 ### Django testing
 
@@ -265,7 +255,7 @@ TestCase was used to test our comment form as well as GET and POST requests on o
 
 When correct data was entered into the tests, all four of them passed. The tests failed appropriately when the data entered did not match the expected outcome.
 
-![Django test results](...)
+![Django test results](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/4%20tests%20passing.png)
 
 ## Deployment
 
