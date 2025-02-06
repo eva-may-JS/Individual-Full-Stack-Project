@@ -24,8 +24,8 @@ The following is a wireframe of how the page is planned to look on a mobile:
 
 This is a wireframe of how the page is planned to look on a laptop/desktop:
 
-![Laptop home page](...) ![Laptop events page](...)
-![Laptop event detail](...) ![Laptop comments section](...)
+![Laptop home page](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Laptop%20home%20page.png) ![Laptop events page](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Laptop%20events%20page.png)
+![Laptop event detail](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Laptop%20event%20detail.png) ![Laptop comments section](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Laptop%20comments%20section.png)
 
 The project may deviate from this wireframe due to potential design improvements during the process
 
