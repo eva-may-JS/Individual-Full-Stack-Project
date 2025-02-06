@@ -65,44 +65,48 @@ The user stories used to plan and structure this project reflect the need for th
 - It is made with Bootstrap and collapses into the burger icon for small devices and expands along the top of the page in larger devices.
 - Bold text indicates to the user what part of the webpage they are on
 
-![NavBar](...)
+![NavBar](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Navbarvideo-ezgif.com-video-to-gif-converter.gif)
 
 2. Logo
 - A distinctive site logo is positioned in the navigation bar to reinforce branding.
 - Clicking the logo redirects users to the homepage for easy and intuitive navigation.
 
-![Logo](...)
+![Logo](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/logo.png)
 
 3. User feedback messages
 - Flash messages provide real-time feedback for user actions (e.g., successful login, form submission errors, or comment submitted for approval).
 - Messages appear at the top of the screen and have a Close button to ensure a smooth user experience.
 
-![Alerts](...)
+![Alerts](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Alerts.png)
 
 4. Introductory information section
 - The homepage includes an introduction to the site’s purpose, guiding new users on how to engage with the community.
 
-![Intro](...)
+![Intro](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Intro%20section.png)
 
 5. Register
 - Secure authentication system allowing users to register
 - Built-in Django authentication ensures data security and session management.
 
-
-![Register](...)
+![Register](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Register-ezgif.com-video-to-gif-converter.gif)
 
 6. Log In / Log Out
 - Secure authentication system allowing users to log in and log out.
 - Users must be logged in to interact with the site (e.g., posting comments).
 - Built-in Django authentication ensures data security and session management.
 
-![Log In and Log Out](...)
+![Log In](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Login-ezgif.com-video-to-gif-converter.gif)
+
+![Log Out](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Logout-ezgif.com-video-to-gif-converter.gif)
+
 
 7. Events page
 - Displays a list of upcoming events with key details such as title, date, location, and category.
 - Each event has a dedicated detail page showing a full description and an associated discussion section.
 
-![Events](...)
+![Events](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Events-ezgif.com-video-to-gif-converter.gif)
+
+![Event detail](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Event%20detail.png)
 
 
 8. Comments section
@@ -110,13 +114,13 @@ The user stories used to plan and structure this project reflect the need for th
 - Comments can be edited or deleted by their authors.
 - New or newly edited comments require admin approval before being visible to ensure content moderation.
 
-![Comments](...)
+![Comments](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Comments.png)
 
 9. Footer
 - A fixed footer is displayed across all pages, containing links to social media and contact details for website admin.
 - It has been made responsive using Bootstrap grid elements.
 
-![Footer](...)
+![Footer](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Footer-ezgif.com-video-to-gif-converter.gif)
 
 ### Features Left to Implement
 
