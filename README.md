@@ -94,23 +94,32 @@ The project may deviate from this wireframe due to potential design improvements
 There are several features planned for a future iteration which have not yet been implemented:
 
 1. Register to an Event
--
+- Users will be able to register for events directly from the event detail page.
+- A "Register" button will be added, allowing users to confirm attendance with a single click.
+- Registrations will be stored in the database and linked to the authenticated user’s profile.
+- Users will receive a confirmation message upon successful registration.
+- Users will also be able to de-register from events
 
 ![Event Registration](...)
 
 2. Create an Event
--
+- Authenticated users will be able to create and post their own events.
+- A "Create Event" form will allow users to input event details, such as title, date, location, and description.
+- Events will undergo an approval process before being displayed on the events page.
+- Users will have the ability to edit or delete their own events.
 
 ![Create Event](...)
 
 
 3. Attendance List
--
+- Each event page will display a list of registered attendees, visible to all authenticated users.
+- The attendance list will include clickable usernames which link to the attending users profile.
 
 ![Attendance List](...)
 
 4. Profile page
-- 
+- A dedicated profile page where users can update personal information.
+- Users can add optional details such as a short bio, interests, types of magical ability, and profile picture.
 
 ![Profile](...)
 
