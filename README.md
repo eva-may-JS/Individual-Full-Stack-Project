@@ -24,7 +24,8 @@ The following is a wireframe of how the page is planned to look on a mobile:
 
 This is a wireframe of how the page is planned to look on a laptop/desktop:
 
-![Wireframe laptop](...)
+![Laptop home page](...) ![Laptop events page](...)
+![Laptop event detail](...) ![Laptop comments section](...)
 
 The project may deviate from this wireframe due to potential design improvements during the process
 
@@ -227,7 +228,7 @@ No errors found:
 
 - Python
 
-Checked using the CI Python Linter
+All Python files checked using the CI Python Linter
 
 Minor errors to do with visual indent and spacing were found and resolved:
 
