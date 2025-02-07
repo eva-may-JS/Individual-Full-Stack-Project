@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic
 from django.contrib import messages
 from django.http import HttpResponseRedirect
+from django.contrib.auth.decorators import login_required
 from .models import Event, Comment
 from .forms import CommentForm
 
@@ -27,6 +28,7 @@ class EventList(generic.ListView):
     paginate_by = 6
 
 
+@login_required
 def event_detail(request, slug):
     """
     Display an individual instance of :model:`events.Event`.
