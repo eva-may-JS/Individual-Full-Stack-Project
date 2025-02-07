@@ -105,7 +105,8 @@ The user stories used to plan and structure this project reflect the need for th
 
 7. Events page
 - Displays a list of upcoming events with key details such as title, date, location, and category.
-- Each event has a dedicated detail page showing a full description and an associated discussion section.
+- Each event has a dedicated detail page showing a full description and an associated discussion section, visible only to logged in users.
+- If a non-authenticated user attempts to view an event detail page, they get redirected to the Log In page in order to keep the discussions private to authenticated users and protect the site from malicious attacks through the comments section.
 
 ![Events](https://github.com/eva-may-JS/Individual-Full-Stack-Project/blob/main/static/images/Events-ezgif.com-video-to-gif-converter.gif)
 
